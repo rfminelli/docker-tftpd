@@ -15,8 +15,8 @@ docker run \
   --restart always \
   -itd \
   -p 69:69 \
-  -v tftpd_data:/var/lib/tftpboot 
-  --name nexthop-tftpd 
+  -v tftpd_data:/var/lib/tftpboot \
+  --name nexthop-tftpd \
   --hostname nexthop-tftpd \
   nexthopsolutions/tftpd
 ```
